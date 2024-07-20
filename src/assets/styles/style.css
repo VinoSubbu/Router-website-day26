@@ -3,30 +3,28 @@
 .heading {
     text-align: center;
     text-transform: uppercase;
-    background: linear-gradient(to right, #0076FB, #06DF1B);
+    background: linear-gradient(to right, #0076FB, #06dfc9);
     margin: 0;
     padding: 20px 0;
     color: white;
 }
 
-nav ul {
+.navbar-ul {
     display: flex;
     justify-content: center;    
     list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
+    padding: 1rem 0;
     margin-right: 20px;
+    gap: 2rem;
   }
   
-  nav ul li a {
+  .navbar-ul .navlink {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 22px;
   }
   
-  nav ul li a:hover {
+  .navbar-ul .navlink:hover {
     color: #0076FB;
     padding-bottom: 5px;
     border-bottom: 2px solid  #0076FB;
